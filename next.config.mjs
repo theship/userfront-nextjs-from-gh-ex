@@ -1,11 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ['res.cloudinary.com'],
-      },    
-};
-
-module.exports = {
+  images: {
+    domains: ['res.cloudinary.com'],
+  },
   async rewrites() {
     return [
       {
@@ -17,4 +14,3 @@ module.exports = {
 };
 
 export default nextConfig;
-
